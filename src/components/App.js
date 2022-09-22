@@ -10,9 +10,9 @@ console.log(user);
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
+      <NavBar {...user} />
+      <Home {...user} />
+      <About {...user} />
     </div>
   );
 }
